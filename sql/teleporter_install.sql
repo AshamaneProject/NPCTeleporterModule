@@ -10,8 +10,7 @@ CREATE TABLE `npc_teleport`(
     `x` FLOAT NOT NULL,
     `y` FLOAT NOT NULL,
     `z` FLOAT NOT NULL,
-    `o` FLOAT NOT NULL,
-    PRIMARY KEY (`menu`, `submenu`)
+    `o` FLOAT NOT NULL
 ); 
 
 DELETE FROM creature_template WHERE entry = 1001000;
